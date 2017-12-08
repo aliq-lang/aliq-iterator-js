@@ -1,0 +1,33 @@
+{
+  "name": "aliq-iterator",
+  "version": "0.0.0",
+  "description": "ALIQ iterator back-end",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliq-lang/aliq-iterator-js.git"
+  },
+  "keywords": [
+    "aliq"
+  ],
+  "files": [
+    "index.d.ts"
+  ],
+  "author": "Sergey Shandar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aliq-lang/aliq-iterator-js/issues"
+  },
+  "homepage": "https://github.com/aliq-lang/aliq-iterator-js#readme",
+  "dependencies": {
+    "aliq": "^0.0.3",
+    "iterator-lib": "0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}

@@ -1,2 +1,3 @@
-# aliq-iterator-js
-ALIQ iterator back-end
+# ALIQ iterator
+
+ALIQ iterator back-end for JavaScript and TypeScript.
