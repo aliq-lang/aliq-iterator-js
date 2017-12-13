@@ -1,6 +1,6 @@
 {
   "name": "aliq-iterator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ALIQ iterator back-end",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/aliq-lang/aliq-iterator-js#readme",
   "dependencies": {
-    "aliq": "^0.0.3",
-    "iterator-lib": "0.0.0"
+    "aliq": "0.0.5",
+    "iterator-lib": "0.0.5"
   },
   "devDependencies": {
     "typescript": "^2.6.2"
