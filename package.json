@@ -1,12 +1,13 @@
 {
   "name": "aliq-iterator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ALIQ iterator back-end",
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "prepare": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm test",
+    "mocha": "tsc && mocha",
+    "test": "tsc && istanbul cover node_modules/mocha/bin/_mocha && istanbul check-coverage"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,15 @@
   },
   "homepage": "https://github.com/aliq-lang/aliq-iterator-js#readme",
   "dependencies": {
-    "aliq": "0.0.5",
-    "iterator-lib": "0.0.5"
+    "aliq": "0.0.6",
+    "iterator-lib": "0.0.13"
   },
   "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
     "typescript": "^2.6.2"
   }
 }
